@@ -4,7 +4,7 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../Firebase";
 
 const CreateUser = () => {
-  createUserWithEmailAndPassword(auth, "username@example.com", "1Password")
+  createUserWithEmailAndPassword(auth, "user@example.com", "1Password")
     .then((userCredential) => {
       // User created successfully
       // eslint-disable-next-line no-unused-vars
