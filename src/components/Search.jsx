@@ -29,7 +29,7 @@ const Search = ({ keyWord, setKeyWord }) => {
           </button>
           <input
             className="w-full py-2 pl-2 text-sm rounded-full text-slate-800 placeholder:text-xs focus:outline-none"
-            placeholder="SEARCH"
+            placeholder="Search by keywords from image descriptions"
             value={query}
             onChange={handleInputChange}
           />
